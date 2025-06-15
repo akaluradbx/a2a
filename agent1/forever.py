@@ -1,5 +1,5 @@
 # forever.py
 import time
 while True:
-    print("Running...")
-    time.sleep(60)
+    print(datetime.datetime.now(), flush=True);
+    time.sleep(15)
